@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHD AHMAD | portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="OO.jpg" type="image/jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---nav manu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">MA</p>
+            </div>
+            <div class="nav-manu" id="mynavmenu">
+                <ul class="nav_manu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav_link active-link"> HOME</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav_link">ABOUT</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav_link">PROJECTS</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav_link">CONTACT</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--DARK MODE-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa-solid fa-moon" id="moon"></i>
+                    <i class="fa-solid fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-manu-btn">
+                <i class="uil uil-bars" onclick="mymenufuction()"></i>
+            </div>
+        </nav>
+        <!---main-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featued-name">
+                        <span class="typedtext"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Ahmad. I'm an aspiring Web and Software Developer, currently building projects and learning modern technologies</p>
+                    </div>
+                    <div class="text-btn">
+                        <H2 class="btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Hire Me</H2>
+
+                        <a href="Resume.pdf" download class="btn">Download Resume <i class="uil uil-file"></i></a>
+
+                    </div>
+                    <div class="social-icons">
+                        <div class="icons-circle"></div>
+                        <a href="https://www.instagram.com/4hmd_26?igsh=a3lqZzN1NnV6dHp6" class="icons"
+                            aria-label="Instagram" target="_blank">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohd-ahmad-08952733b" class="icons" aria-label="LinkedIn"
+                            target="_blank">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="mailto:ahmadghufran609@gmail.com" class="icons" aria-label="envelope" target="_blank">
+                            <i class="uil uil-envelope"></i></a>
+
+                        </a>
+                        <a href="https://github.com/4hmad26" class="icons" aria-label="GitHub" target="_blank">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="dd.webp" alt=" ">
+                    </div>
+                </div>
+            </section>
+            <!---about box-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1 >About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="dd.webp" alt="" class="profile" />
+                                    <h2>Web and Software Developer</h2>
+                                    <p>"I'm a passionate Web and Software Developer currently learning and building real-world projects to sharpen my skills. Eager to contribute to a dynamic team and gain hands-on experience through an internship opportunity."</p>
+                                </figcaption>
+                            </figure>
+                            <button class="about-me-btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Hire Me</button>
+
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per  html">
+                                    <span class="tooltip">90%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per css ">
+                                    <span class="tooltip">80%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JS</span>
+                            <div class="skill-bar  ">
+                                <span class="skill-per js">
+                                    <span class="tooltip">75%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">C/C++</span>
+                            <div class="skill-bar  ">
+                                <span class="skill-per C/C++">
+                                    <span class="tooltip">70%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">MYSQL </span>
+                            <div class="skill-bar ">
+                                <span class="skill-per mysql ">
+                                    <span class="tooltip">65%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">NODE.JS</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per nodejs ">
+                                    <span class="tooltip">60%</span>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">MONGODB</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per mongodb ">
+                                    <span class="tooltip">55%</span>
+
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <!---PROJECTS-BOX-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>completed</h3>
+                        <label>10+ completed projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>client</h3>
+                        <label>30+ happy client</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Skills & learning</h3>
+                        <label>Actively learning and building projects in web and Software Development</label>
+                    </div>
+                </div>
+            </section>
+            <!---CONTACT-BOX-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's work together</h1>
+                    <span> do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope">Email: ahmadghufran609@gmail.com</i></p>
+                            <p><i class="uil uil-phone">Phone: 8287320490</i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form id="contact-form" class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" name="from_name" class="input-field" placeholder="Your Name" required>
+                                <input type="email" name="from_email" class="input-field" placeholder="Your Email" required>
+                            </div>
+                            <div class="text-area">
+                                <input type="text" name="subject" class="input-subject" placeholder="Your Subject" required>
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!---footer-->
+        <footer>
+           <!----<div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div> --->
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/4hmd_26?igsh=a3lqZzN1NnV6dHp6" class="icon" aria-label="Instagram"
+                    target="_blank">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohd-ahmad-08952733b" class="icon" aria-label="LinkedIn"
+                    target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="mailto:ahmadghufran609@gmail.com" class="icon" aria-label="envelope" target="_blank">
+                    <i class="uil uil-envelope"></i></a>
+                </a>
+                <a href="https://github.com/4hmad26" class="icon" aria-label="GitHub" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+            <div class="buttom-footer">
+                <p>copyright &copy; <a href="#home" style="text-decoration: none;"> Mohdahmad</a> - all rights
+                    reserved 2023 </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function () {
+        emailjs.init("syHh4gK4ogekzNyLD"); // Replace with your EmailJS public key
+    })();
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
