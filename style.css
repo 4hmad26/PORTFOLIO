@@ -866,3 +866,19 @@
                 margin-right: auto;
             }
         }
+
+@media only screen and (max-width: 768px) {
+  /* Your mobile styles go here */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  nav {
+    display: none; /* Example: hide the navbar on mobile */
+  }
+}
