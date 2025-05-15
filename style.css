@@ -484,41 +484,40 @@
             opacity: 0;
         }
 
-        .skill-per.html {
+               .skill-per.html {
             animation-delay: 0.1s;
             width: 90%;
         }
 
-        .skill-per.css {
-            animation-delay: 0.1s;
-            width: 80%;
-        }
-
-        .skill-per.js {
-            animation-delay: 0.1s;
-            width: 75%;
-        }
-
-        .skill-per.c {
+        .skill-per.python {
             animation-delay: 0.1s;
             width: 70%;
         }
 
-        .skill-per.mysql {
-            animation-delay: 0.1s;
-            width: 65%;
-        }
-
-        .skill-per.nodejs {
+        .skill-per.java {
             animation-delay: 0.1s;
             width: 60%;
         }
 
-        .skill-per.mongodb {
+        .skill-per.c {
             animation-delay: 0.1s;
-            width: 55%;
+            width: 60%;
         }
 
+        .skill-per.mysql {
+            animation-delay: 0.1s;
+            width: 50%;
+        }
+
+        .skill-per.nodejs {
+            animation-delay: 0.1s;
+            width: 40%;
+        }
+
+        .skill-per.mongodb {
+            animation-delay: 0.1s;
+            width: 35%;
+        }
         @keyframes progress {
             0% {
                 width: 0%;
